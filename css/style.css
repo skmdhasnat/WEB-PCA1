@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("vid/pexels.mp4") top right no-repeat;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#div1 {
+    display: inline-block;
+    box-shadow: 0px 0px 5px black;
+    margin: 10px 10px;
+}
+
+#div2 {
+    display: inline-block;
+    box-shadow: 0px 0px 5px black;
+    margin: 10px 10px;
+}
+
+#div3 {
+    display: inline-block;
+    box-shadow: 0px 0px 5px black;
+    margin: 0px;
+    background-color: rgb(116, 3, 63);
+}
+
+#div1:hover,
+#div2:hover {
+    background-color: aquamarine;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.Hasnat {
+    padding: 150px 50px;
+    text-align: center;
+}
+
+.hasnat1 {
+    background-color: deeppink;
+    color: black;
+    border-radius: 10px;
+}
+
+.hasnat1:hover {
+    background-color: rgb(116, 3, 63);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+}
+
+.btn {
+    color: aliceblue;
+}
